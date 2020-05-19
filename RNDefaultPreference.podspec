@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   
   s.preserve_paths = 'README.md', 'package.json', 'index.js'
   s.source_files   = 'iOS/*.{h,m}'
-  s.source         = { :git => 'https://github.com/dllibrary/react-native-default-preference.git' }
+  s.source         = { :git => 'https://github.com/dllibrary/react-native-default-preference.git', :tag => s.version.to_s }
 
   s.dependency 'React'
 end
