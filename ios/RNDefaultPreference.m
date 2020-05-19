@@ -3,7 +3,7 @@
 
 @implementation RNDefaultPreference
 
-NSString* defaultSuiteName = nil;
+NSString* defaultSuiteName = @"react-native";
 
 - (dispatch_queue_t)methodQueue
 {
